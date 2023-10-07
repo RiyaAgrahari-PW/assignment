@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-color: rgb(70, 67, 67);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .searchbar{
+            width: 100%;
+            max-width: 700px;
+            background: rgba(255,255,255,0.2);
+            display: flex;
+            align-items:center;
+            border-radius: 60px;
+            padding: 10px 20px;
+        }
+        .searchbar input{
+            background: transparent;
+            flex: 1;
+            border: 0;
+            outline: none;
+            padding: 24px 20px;
+font-size: 1.5em;
+
+        }
+        .searchbar button img{
+width: 25px;
+background: transparent;
+
+
+        }
+
+        ::placeholder{
+            color:gray ;
+            left: 30px;
+        }
+        .searchbar button{
+            border: 0;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background: #58629b;
+            cursor: pointer;
+        }
+ .searchbar button img.search{
+       position: absolute;
+       right: unset;
+       left: 160px;
+      border-radius: 50%;
+      background: #58629b;
+    
+ }
+ .searchbar button img.voice{
+ position: absolute;
+ left: 700px;
+ width: 50px;
+ border-radius: 50%;
+  background: #58629b;
+ }
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <form action="" class="searchbar">
+        <input type="text" placeholder="Search....">
+        <button type="submit"><img class="voice" src="voice.png"><img class="lens" src="lens.png"><img class="search" src="search.png"></button>
+    </form>
+  </div>
+</body>
+</html>

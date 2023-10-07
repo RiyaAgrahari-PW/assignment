@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-color: rgb(70, 67, 67);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box{
+            width: 100%;
+            max-width: 2000px;
+            background-color: darksalmon;
+            display: flex;
+            align-items:center;
+            border-radius: 60px;
+            padding: 10px 20px;  
+            
+
+
+        }
+        .box button{
+            
+            background: transparent;
+              border: 0;
+            outline: none;
+            padding: 24px 20px; 
+           
+        }
+        img{
+            width: 40px;
+        }
+        .box button img#cross{
+            position: fixed;
+            right: unset;
+            left: 83%;
+           
+
+        }
+       .box h5{
+        font-size: 2em;
+      right: 20%;
+
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="box">
+        <button type="submit"><img src="alert.png"><img id="cross" src="cross.png"></button><h5>Warning!! This  Action is not allowed</h5>
+        </form>
+        
+    </div>
+</body>
+</html>
